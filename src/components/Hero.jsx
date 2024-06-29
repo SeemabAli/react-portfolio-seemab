@@ -1,7 +1,6 @@
 import React from "react";
 import { HERO_CONTENT } from "../constants";
 import profilePic from "../assets/kevinRushProfile.svg";
-import Typical from "react-typical";
 import { motion } from "framer-motion";
 
 export default function Hero() {
@@ -29,15 +28,7 @@ export default function Hero() {
               whileInView="visible"
               variants={textVariants}
             >
-              <Typical
-                steps={[
-                  "Front End Developer", 1000,
-                  "Back End Developer", 1000,
-                  "MERN Stack Developer", 1000,
-                  "Full Stack Developer", 1000,
-                ]}
-                loop={Infinity}
-              />
+              Full Stack Developer
             </motion.span>
             <motion.p
               className="my-2 max-w-xl py-6 font-light tracking-tighter"

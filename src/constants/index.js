@@ -34,5 +34,5 @@ export const SERVICES = [
 export const CONTACT = {
   address: "Chakwal, Punjab, Pakistan",
   phoneNo: "+92 317 5691110",
-  email: "aliseemi7335@gmail.com",
+  email: "seemabali@proton.me",
 };

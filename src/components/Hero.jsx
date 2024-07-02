@@ -31,7 +31,7 @@ export default function Hero() {
               Full Stack Developer
             </motion.span>
             <motion.p
-              className="my-2 max-w-xl py-6 font-light tracking-tighter"
+              className="my-2 max-w-xl py-6 font-light tracking-tighter text-justify"
               initial="hidden"
               whileInView="visible"
               variants={textVariants}

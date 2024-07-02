@@ -41,7 +41,7 @@ export default function About() {
             whileInView="visible"
             variants={itemVariants}
           >
-            <p className="my-2">{ABOUT_TEXT}</p>
+            <p className="my-2 text-justify">{ABOUT_TEXT}</p>
           </motion.div>
         </div>
       </div>

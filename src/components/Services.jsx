@@ -17,7 +17,7 @@ export default function Services() {
         {SERVICES.map((service, index) => (
           <motion.div
             key={index}
-            className="w-full lg:w-1/3 p-4"
+            className="w-full lg:w-1/3 p-4 text-justify"
             initial="hidden"
             whileInView="visible"
             variants={itemVariants}

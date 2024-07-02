@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import aboutImg from "../assets/about.png";
+import aboutImg from "../assets/aboutMe.jpg";
 import { ABOUT_TEXT } from "../constants";
 
 export default function About() {

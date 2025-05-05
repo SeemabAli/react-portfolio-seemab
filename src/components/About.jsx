@@ -1,4 +1,4 @@
-import React from "react";
+
 import { motion } from "framer-motion";
 import aboutImg from "../assets/aboutMe.jpg";
 import { ABOUT_TEXT } from "../constants";
@@ -22,7 +22,7 @@ export default function About() {
       <div className="flex flex-wrap items-center">
         <div className="w-full lg:w-1/2 flex justify-center lg:justify-end lg:p-8">
           <motion.div
-            className="w-48 h-48 lg:w-64 lg:h-64 flex items-center justify-center"
+            className="w-64 h-64 lg:w-96 lg:h-96 flex items-center justify-center"
             initial="hidden"
             whileInView="visible"
             variants={itemVariants}
@@ -34,6 +34,7 @@ export default function About() {
             />
           </motion.div>
         </div>
+
         <div className="w-full lg:w-1/2 flex justify-center lg:justify-start lg:p-8">
           <motion.div
             className="max-w-xl py-6"

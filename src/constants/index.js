@@ -40,7 +40,7 @@ export const SERVICES = [
 ];
 
 export const CONTACT = {
-  address: "Islamabad, Pakistan",
+  address: "Lahore, Pakistan",
   phoneNo: "+923395914110",
   email: "seemabali@proton.me",
 };
